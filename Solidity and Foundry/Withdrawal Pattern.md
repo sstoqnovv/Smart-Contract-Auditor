@@ -1,0 +1,5 @@
+he recommended method of sending funds after an effect is using the withdrawal pattern. Although the most intuitive method of sending Ether, as a result of an effect, is a direct `transfer` call, this is not recommended as it introduces a potential security risk. You may read more about this on the [Security Considerations](https://docs.soliditylang.org/en/latest/security-considerations.html#security-considerations) page.
+
+The following is an example of the withdrawal pattern in practice in a contract where the goal is to send the most of some compensation, e.g. Ether, to the contract in order to become the “richest”, inspired by [King of the Ether](https://www.kingoftheether.com/).
+
+In the following contract, if you are no longer the richest, you receive the funds of the person who is now the richest.
