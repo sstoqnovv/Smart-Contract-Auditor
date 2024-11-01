@@ -1,0 +1,2 @@
+DeFi platforms for lending and borrowing must avoid a situation where repayments are paused while liquidations continue to be allowed. This would unjustly hinder borrowers from making their repayments, even though they could still be liquidated.![[Pasted image 20230831094010.png]]
+If there is a provision to pause repayments, then it must be accompanied by a simultaneous pause in liquidations. So, the next time when you are auditing lending and borrowing platform take a look if repayments or liquidations are paused.
